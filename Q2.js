@@ -1,6 +1,5 @@
 function manipulateString(value) {
 
-    const t0 = performance.now();
     const newValue = value.toUpperCase();
 
     return function logString(value) {
